@@ -59,7 +59,7 @@ const addBookHandler = (request, h) => {
 
     // check if book successfully added
     const isSuccess = books.filter((book) => book.id === id).length > 0;
-    console.log(newBook);
+    // console.log(newBook);
 
     if (isSuccess) {
         // berhasil
