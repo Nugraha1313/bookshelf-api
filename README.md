@@ -1,5 +1,18 @@
 # bookshelf-api
 
+## Running App
+1. Installing
+```bash
+git clone https://github.com/Nugraha1313/bookshelf-api.git
+cp .env.example .env
+npm i
+npm run start 
+```
+2. Testing
+```bash
+npm i newman -g
+newman run '.\Bookshelf API Test.postman_collection.json' --environment '.\Bookshelf API Test.postman_environment.json'
+```
 ## Feature
 
 **1. Menyimpan Buku**
